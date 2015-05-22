@@ -6,10 +6,10 @@
 $(function(){
     $('#submitGen').click(function(e){
         e.preventDefault();
-        var urlAjax =  "http://hml.bompracredito.com.br/app/api/LeadGen/IntegrateLead";
+        var urlAjax =  "http://hml.bompracredito.com.br/app/api/LeadGen/IntegrateLead"; // url de homologação
 
         var leadGenRequest = {
-            leadGeneratorId: "d95ab0fb-a53e-4568-9b27-a4a000c7a0bc",
+            leadGeneratorId: "SEU_TOKEN_AQUI", //forneça seu token aqui
             borrower: {
                 name: $("#nome").val(),
                 cpf: $("#cpf").val(),
