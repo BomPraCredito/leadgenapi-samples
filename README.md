@@ -11,5 +11,5 @@ O exemplo neste projeto demonstra a utilização de API utilizando um site simpl
 ## Documentação
 A documentação da API pode ser encontrada no nosso [wiki]
 
-[wiki]:http://wiki.bompracedito.com.br/
+[wiki]:http://wiki.bompracredito.com.br/
 
