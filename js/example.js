@@ -2,7 +2,7 @@
  * Created by danielp on 12/2/2014.
  */
 
-//var urlAjax =  "http://hml.bompracredito.com.br/lead/<<SEU TOKEN AQUI>>"; // url de homologação
+//var urlAjax =  "http://hml.bompracredito.com.br/leadgen/lead/<<SEU TOKEN AQUI>>"; // url de homologação
 var urlAjax =  "http://localhost:60494/leadgen/lead/8bf0efc6-8cb7-4884-a338-a4ab009f0df3"; // url de homologação
 
 function getRequest() {
