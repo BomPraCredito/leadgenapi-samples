@@ -1,6 +1,6 @@
 # Bom Pra Crédito - Exemplo da API de Lead Generation
 
-A API de Lead Generation do Bom Pra Crédito possibilita aos parceiros do Bom Pra Crédito submeter leads para nossa plataforma.
+A API de Lead Generation do Bom Pra Crédito possibilita aos parceiros do Bom Pra Crédito submeter, consultar e acompanhar o status de leads em nossa plataforma.
 
 Para obter um token e liberar seu IP, entre em contato com leadgenapi@bompracredito.com.br
 
