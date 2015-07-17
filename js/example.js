@@ -2,8 +2,8 @@
  * Created by danielp on 12/2/2014.
  */
 
-//var urlAjax =  "http://hml.bompracredito.com.br/leadgen/lead/<<SEU TOKEN AQUI>>"; // url de homologação
-var urlAjax =  "http://localhost:60494/leadgen/lead/8bf0efc6-8cb7-4884-a338-a4ab009f0df3"; // url de homologação
+var urlAjax =  "http://hml.bompracredito.com.br/app/leadgen/lead/d95ab0fb-a53e-4568-9b27-a4a000c7a0bc"; // url de homologação
+//var urlAjax =  "http://localhost:60494/leadgen/lead/8bf0efc6-8cb7-4884-a338-a4ab009f0df3"; // url de homologação
 
 function getRequest() {
     var leadGenRequest = {
@@ -15,6 +15,9 @@ function getRequest() {
             homePhone: {
                 areaCode: $("#ddd").val(),
                 number: $("#fone").val()
+            },
+            homeAddress: {
+                cep:$("#cep").val()
             }
         },
         proposal: {
